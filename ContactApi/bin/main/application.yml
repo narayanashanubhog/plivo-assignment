@@ -1,0 +1,5 @@
+couchbase:
+    cluster:
+        bucketName: Contact
+        ip: localhost
+        password: Password01
