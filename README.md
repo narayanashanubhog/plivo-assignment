@@ -11,7 +11,8 @@ Rest Api Endpoints :
 - [ ] List<Contact> getContactDetailsByName(String name)
 
 
-=== Beans:
+
+```Beans ```
 {
    "firstName":"Test",
    "lastName":"DEmo",
@@ -43,7 +44,7 @@ Rest Api Endpoints :
    ]
 }
 
-=== Tech Stack:
+```Tech Stack ```
 * Spring Boot
 * Couchbase
 
