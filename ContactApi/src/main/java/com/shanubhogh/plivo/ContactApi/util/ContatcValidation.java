@@ -11,6 +11,13 @@ public class ContatcValidation {
 	private Pattern pattern;
 	private Matcher matcher;
 
+    private static final ContatcValidation instance = new ContatcValidation();
+    
+    private ContatcValidation(){}
+
+    public static ContatcValidation getInstance(){
+        return instance;
+    }
 	private static final String EMAIL_PATTERN = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
 			+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 
