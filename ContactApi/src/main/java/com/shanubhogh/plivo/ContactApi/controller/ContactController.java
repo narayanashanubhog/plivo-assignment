@@ -101,7 +101,7 @@ public class ContactController {
 	 * @return A String data type.
 	 */
 	@RequestMapping(value = "/DeleteContact", method = DELETE)
-	public boolean deleteContact(@RequestBody String emailAddress) throws Exception {
+	public boolean deleteContact(@RequestParam("emailAddress") String emailAddress) throws Exception {
 		Contact contact = null;
 		boolean result = false;
 		try {
